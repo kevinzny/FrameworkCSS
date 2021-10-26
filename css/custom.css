@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+:root {
+	--global-color: #333;
+	--global-inverse-color: #fff;
+	--global-font-size: 16px;
+	--global-font: 'Open Sans', sans-serif;
+	--global-background: #fff;
+	--global-border-color: #cacaca;
+	--global-emphasis-color: #999;
+	--global-gutter: 30px;
+	--global-gutter-xs: calc(var(--global-gutter) / 3.5);
+	--global-gutter-s: calc(var(--global-gutter) / 2);
+	--global-gutter-l: calc(var(--global-gutter) * 1.5);
+	--global-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	--global-radius: 0;
+
+	--primary: #673ab7;
+	--primary-variant: #512da8;
+	--secondary: #4caf50;
+	--secondary-variant: #388e3c;
+	--success: #32d296;
+	--success-variant: #269E71;
+	--warning: #faa05a;
+	--warning-variant: #BB7844;
+	--danger: #f0506e;
+	--danger-variant: #B43C52;
+	--muted: #f5f5f5;
+	--muted-variant: #D6D6D6;
+
+	--btn-height: 38px;
+	--btn-height-s: calc(var(--btn-height) / 1.5);
+	--btn-height-l: calc(var(--btn-height) * 1.5);
+
+	--breakpoint-s: 480px;
+	--breakpoint-m: 768px;
+	--breakpoint-l: 1024px;
+}

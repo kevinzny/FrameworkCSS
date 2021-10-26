@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Grid</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body>
+	<div class="grid wrapped grid-collapse">
+		<aside class="sidebar bg-secondary padding-large">
+			<div class="position-fixed">
+				<h3 class="text-lead">Documentación</h3>
+				<ul class="nav">
+					<li><a href="index.html">Index</a></li>
+					<li><a href="header.html">Header</a></li>
+					<li><a href="text.html">Text</a></li>
+					<li><a href="helpers.html">Helper</a></li>
+					<li><a href="grid.html">Grid</a></li>
+					<li><a href="buttons.html">Button</a></li>
+					<li><a href="icons.html">Icon</a></li>
+					<li><a href="cards.html">Card</a></li>
+					<li><a href="table.html">Table</a></li>
+					<li><a href="labels.html">Label</a></li>
+					<li><a href="lists.html">List</a></li>
+					<li><a href="margins.html">Margin</a></li>
+					<li><a href="paddings.html">Padding</a></li>
+					<li><a href="section.html">Section</a></li>
+					<li><a href="nav.html">Nav</a></li>
+					<li><a href="navbar.html">Navbar</a></li>
+					<li><a href="video.html">Video</a></li>
+					<li><a href="backgrounds.html">Background</a></li>
+				</ul>
+			</div>
+		</aside>		
+
+		<div class="content">
+			<header class="header">
+				<div class="container">
+					<h1>Grid</h1>
+					<h2>Ejemplos de grillas</h2>
+				</div>
+			</header>
+
+			<section class="section">
+				<div class="container">
+					<h3>Uso básico</h3>
+					<table class="table table-divider">
+						<thead>
+							<tr>
+								<th class="column-class">Clase</th>
+								<th>Ejemplo</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><code>.grid</code></td>
+								<td>Crea una grilla de una columna con su gap correspondiente.</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<div class="grid">
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section">
+				<div class="container">
+					<h3>Tamaños de gap</h3>
+					<table class="table table-divider">
+						<thead>
+							<tr>
+								<th class="column-class">Clase</th>
+								<th>Ejemplo</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><code>.grid-small</code></td>
+								<td>Agrega esta clase para crear un gap pequeño.</td>
+							</tr>
+							<tr>
+								<td><code>.grid-large</code></td>
+								<td>Agrega esta clase para crear un gap grande.</td>
+							</tr>
+							<tr>
+								<td><code>.grid-collapse</code></td>
+								<td>Agrega esta clase para eliminar el gap.</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<div class="grid grid-3 grid-small margin-top">
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+					</div>
+
+					<div class="grid grid-3 grid-large margin-top">
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+					</div>
+
+					<div class="grid grid-3 grid-collapse margin-top">
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-secondary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section">
+				<div class="container">
+					<h3>Columnas</h3>
+					<table class="table table-divider">
+						<thead>
+							<tr>
+								<th class="column-class">Clase</th>
+								<th>Ejemplo</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><code>.grid-2</code></td>
+								<td>Agrega esta clase para obtener 2 columnas.</td>
+							</tr>
+							<tr>
+								<td><code>.grid-3</code></td>
+								<td>Agrega esta clase para obtener 3 columnas.</td>
+							</tr>
+							<tr>
+								<td><code>.grid-4</code></td>
+								<td>Agrega esta clase para obtener 4 columnas.</td>
+							</tr>
+							<tr>
+								<td><code>.grid-5</code></td>
+								<td>Agrega esta clase para obtener 5 columnas.</td>
+							</tr>
+							<tr>
+								<td><code>.grid-6</code></td>
+								<td>Agrega esta clase para obtener 6 columnas.</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<div class="grid grid-2 margin-top">
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+					</div>
+
+					<div class="grid grid-3 margin-top">
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+					</div>
+
+					<div class="grid grid-4 margin-top">
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+					</div>
+
+					<div class="grid grid-5 margin-top">
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+					</div>
+
+					<div class="grid grid-6 margin-top">
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+						<div class="bg-primary card-body card-small">
+							<p>
+								item
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+</body>
+</html>
